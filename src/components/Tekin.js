@@ -1,9 +1,10 @@
 import React from 'react';
+import s from './Tekin.module.css';
 
 function Tekin () {
     return (
-        <div className="Tekin">
-            Kazimov !
+        <div className={s.ad}>
+            Kazimov!
         </div>
     );
 }

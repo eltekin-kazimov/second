@@ -14,10 +14,7 @@ function App() {
         <div className="App">
             <ul>
                 <li>{ob.name} - {ob.age}  - Kazimov ! </li>
-                <li> {Tekin()} </li>
                 <li> <Tekin /> </li>
-                <li> Baki Nesimi r. </li>
-                <li> Baki Sebail r. </li>
             </ul>
         </div>
     );
