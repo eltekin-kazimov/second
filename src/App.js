@@ -3,6 +3,7 @@ import {BrowserRouter, NavLink, Route} from 'react-router-dom';
 import './App.css';
 import Tekin from "./components/Tekin";
 import Kazimov from './components/Kazimov/Kazimov'
+import X from './components/X/X';
 
 
 let ob = {
@@ -28,6 +29,7 @@ function App() {
         <BrowserRouter>
             <div className="App">
                 <ul>
+                    <li> <X /> </li>
                     <li> <NavLink to="/soyad"> soyad </NavLink> </li>
                     <li> <NavLink to="/salam"> salam </NavLink> </li>
                     <br />
