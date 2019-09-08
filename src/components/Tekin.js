@@ -1,10 +1,10 @@
 import React from 'react';
 import s from './Tekin.module.css';
 
-function Tekin () {
+function Tekin (props) {
     return (
         <div className={s.ad}>
-            Kazimov !
+            Kazimov {props.num.toString()}!
         </div>
     );
 }
