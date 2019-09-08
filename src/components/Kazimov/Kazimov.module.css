@@ -1,0 +1,10 @@
+.soyad {
+    border: black;
+    border-bottom-style: double;
+    font-size: 37px;
+}
+
+.table tr td {
+    background: blue;
+    color: aqua;
+}

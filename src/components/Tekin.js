@@ -4,7 +4,7 @@ import s from './Tekin.module.css';
 function Tekin () {
     return (
         <div className={s.ad}>
-            Kazimov!
+            Kazimov !
         </div>
     );
 }
