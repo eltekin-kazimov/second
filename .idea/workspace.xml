@@ -4,6 +4,8 @@
     <list default="true" id="566da3c1-8a7f-42f0-96b5-ffc48f9c6654" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tekin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tekin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,7 +62,8 @@
       <workItem from="1567798851631" duration="5740000" />
       <workItem from="1567840487695" duration="2825000" />
       <workItem from="1567862349081" duration="1179000" />
-      <workItem from="1567936415362" duration="12124000" />
+      <workItem from="1567936415362" duration="12175000" />
+      <workItem from="1568015112783" duration="3361000" />
     </task>
     <servers />
   </component>
