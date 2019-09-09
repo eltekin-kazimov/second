@@ -21,7 +21,7 @@ function App(props) {
     }
 
     let new_li = arr.map(item => {
-        let x = <Tekin num={item} name={props.state.ob} arr={props.state.arr} />;
+        let x = <Tekin num={item} name={props.state.ob} arr={props.state.arr} qis={props.qis} />;
         return <li>{x}</li>;
     });
 
@@ -35,7 +35,7 @@ function App(props) {
                     <br />
                     <li>{ob.name} - {ob.age} - Kazimov !</li>
                     <li>
-                        <Route exact path="/salam" component={() => <Tekin num="99" name={props.name} />}/>
+                        <Route exact path="/salam" component={() => <Tekin num="99" arr={props.state.arr} name={props.state.ob} qis={props.qis}/>}/>
                         <Route path="/soyad" component={() => <Kazimov name="Xaqan" />} />
                     </li>
                     {new_li}

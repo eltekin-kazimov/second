@@ -5,6 +5,14 @@ import Tekin from './../Tekin';
 
 
 function Kazimov(props) {
+
+    let newLink = React.createRef();
+
+    function play(){
+        let Z = newLink.current.value;
+        alert ( Z );
+    }
+
     return (
         <div>
             <table className={s.soyad}>
@@ -25,6 +33,10 @@ function Kazimov(props) {
                     <td>Ruslan Kazimov</td>
                     <td>Ali Kazimov</td>
                     <td>Farid Kazimov</td>
+                </tr>
+                <tr>
+                    <td><textarea ref={newLink}></textarea></td>
+                    <td><button onClick={() => alert ( newLink.current.value )}></button></td>
                 </tr>
             </table>
         </div>
