@@ -6,7 +6,7 @@ import Muellim from './components/Muellim/Muellim';
 import State, {qisqir} from './State';
 import * as serviceWorker from './serviceWorker';
 import state_2 from './State_2';
-import {yarat} from "./State_2";
+import {yarat, deyis, soz} from "./State_2";
 
 
 let ob = {
@@ -17,7 +17,7 @@ State.ob = ob;
 ReactDOM.render(<App state={State} qis={qisqir}/>, document.getElementById('root'));
 
 export function muellimCaqir(){
-    ReactDOM.render(<Muellim state={state_2} yarat={yarat} />, document.getElementById('eltekin'));
+    ReactDOM.render(<Muellim state={state_2} yarat={yarat} deyis={deyis} soz={soz} />, document.getElementById('eltekin'));
 }
 
 muellimCaqir();

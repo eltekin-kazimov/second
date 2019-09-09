@@ -12,13 +12,15 @@ function Muellim(props) {
         );
     });
 
+
+
     let shpion = React.createRef();
 
     return (
         <div>
             {arr}
             <div>
-                <textarea ref={shpion} ></textarea>
+                <textarea onChange={() => props.deyis(shpion.current.value)} value={props.soz.get('ad')} ref={shpion} ></textarea>
             </div>
             <div>
                 <button onClick={() => props.yarat(shpion.current.value)}> Tesdiqle</button>
